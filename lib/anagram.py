@@ -10,8 +10,6 @@ class Anagram:
         for word in words:
             if set(word) == set(self.target):
                 result.append(word)
-            else:
-                return result
         return result
 
     pass
